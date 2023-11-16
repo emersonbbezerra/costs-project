@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Description
+
+This is a webapp developed to manage and control development projects in the IT area. It was built with React JS using React Router Dom to facilitate navigation and also UseStates to control components. A "fictitious" database was used, which is located directly at the root of the project. This webapp has project registration, with description and total value and the possibility of including services with description and values.
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -13,6 +17,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+### `npm run backend`
+
+Runs the API simulating the database that was implemented by "json-server" on port 5000.
+Note: Open another terminal.
 
 ### `npm test`
 
